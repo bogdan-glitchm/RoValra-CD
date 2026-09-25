@@ -1,0 +1,32 @@
+name: CLA Agreement
+
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  cla:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prompt CLA
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `## Contributor License Agreement
+
+            Before this pull request can be merged, please read the [Contributor License Agreement](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/main/CLA.md).
+
+            If you agree, please reply to this pull request with:
+
+            \`I have read and agree to the RoValra Contributor Documentation Contributor License Agreement.\`
+            `
+            })
