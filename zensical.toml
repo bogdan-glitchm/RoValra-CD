@@ -11,7 +11,7 @@ repo_name = "bogdan-glitchm/RoValra-CD"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  { "RoValra Contributor Docs" = "index.md" },
+  "index.md",
 
   { "Contributions" = [
     { "Adding yourself" = "contributors/adding-yourself.md" }
