@@ -1,6 +1,9 @@
 ---
 title: Adding a Locale
 comments: true
+tags:
+  - UI
+  - Strings
 ---
 
 ## Adding a new Locale File
@@ -26,7 +29,7 @@ Example:
 
 To actually get the **translator badge** and show up in the contributor list:
 
-1. First, add yourself to `src/content/core/configs/userIds.js` to `TRANSLATOR_USER_IDS`. This will give you a translator badge
+1. First, add yourself to `src/content/core/configs/userIds.js` to `TRANSLATOR_USER_IDS`. This will give you a translator badge. See more details [here](../translators/adding-yourself.md).
 2. Create a locale under `settings.credits.otherContributions.locales` with a short description stating that you made a locale for that specific language. You will need this in the next step.
 3. Add yourself to `src/content/core/configs/otherContributions.ts` to `OTHER_CONTRIBUTIONS.Locales.contributors` as `new Contribution(<roblox user ID>, "locales.<rest of locale key>", "<Pull Request link (optional)>")`. Take the other entries as examples if you need to.
 
