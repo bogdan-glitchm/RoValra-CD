@@ -1,5 +1,9 @@
 ---
 title: RoValra API Privacy Policy
+tags:
+    - Backend
+    - Legal
+    - GDPR
 ---
 
 **Privacy Policy for RoValra Chrome Extension**

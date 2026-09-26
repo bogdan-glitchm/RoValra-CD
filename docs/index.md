@@ -8,6 +8,9 @@ title: RoValra CD
 
 ## Contents
 
+* **Contributions**
+    - [Adding yourself](./contributors/adding-yourself.md)
+
 * **Reading Settings**
     - [Unified API](reading-settings/unified.md)
     - [Chrome Storage](reading-settings/chrome-storage.md)

@@ -1,5 +1,8 @@
 ---
 title: RoValra API Terms of Use
+tags:
+    - Backend
+    - Legal
 ---
 
 # RoValra Terms of Service & API Terms of Use

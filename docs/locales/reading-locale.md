@@ -1,6 +1,9 @@
 ---
 title: Reading Locales
 comments: true
+tags:
+    - UI
+    - Strings
 ---
 
 ## Reading a locale without variables
