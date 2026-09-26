@@ -18,11 +18,6 @@ nav = [
   
   ] },
 
-  { "Translators" = [
-    { "Adding yourself" = "translators/adding-yourself.md" }
-  
-  ] },
-
   { "Reading Settings" = [
     "reading-settings/unified.md",
     "reading-settings/chrome-storage.md",
@@ -197,6 +192,11 @@ HTML = "html"
 Credit = "credit"
 Contributors = "contributors"
 Translators = "translators"
+Legal = "legal"
+Backend = "backend"
+GDPR = "gdpr"
+UI = "ui"
+Strings = "Strings"
 
 [project.theme.icon.tag]
 default = "lucide/hash"

@@ -1,6 +1,10 @@
 ---
 title: Project Licensing Notice
+tags:
+    - Legal
 ---
+
+# Project Licensing Notice
 
 &nbsp;&nbsp;Unless otherwise stated, the source code in this repository is licensed under
 the GNU General Public License version 3.0, reproduced below.

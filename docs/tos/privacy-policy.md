@@ -1,5 +1,8 @@
 ---
 title: Extension Privacy Policy
+tags:
+    - Legal
+    - GDPR
 ---
 
 **Privacy Policy for RoValra Chrome Extension**
